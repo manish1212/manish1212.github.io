@@ -441,10 +441,13 @@ section {
 .growClass {
 	cursor: pointer;
 	transition: transform 1s;
+  max-width: 100%;
+  max-height: 100%;
 }
 .growClass:hover {
 	transform: scale(1.1);
 }
+
 
 /*--------------------------------------------------------------
 # Resume
