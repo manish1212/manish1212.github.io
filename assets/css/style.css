@@ -437,6 +437,15 @@ section {
   background-color: #149ddd;
 }
 
+/* img grow */
+.growClass {
+	cursor: pointer;
+	transition: transform 1s;
+}
+.growClass:hover {
+	transform: scale(1.1);
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
